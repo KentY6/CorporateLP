@@ -14,6 +14,9 @@
     <!-- ホーム画面 -->
     <?php include 'home.php'; ?>
 
+    <!-- 会社概要画面 -->
+    <?php include 'about.php'; ?>
+
     <!-- フッター -->
     <?php include 'footer.php'; ?>
 </body>
