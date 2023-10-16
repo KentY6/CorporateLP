@@ -17,6 +17,9 @@
     <!-- 会社概要画面 -->
     <?php include 'about.php'; ?>
 
+    <!-- Case画面 -->
+    <?php include 'case.php'; ?>
+
     <!-- フッター -->
     <?php include 'footer.php'; ?>
 </body>
