@@ -20,6 +20,9 @@
     <!-- Case画面 -->
     <?php include 'case.php'; ?>
 
+    <!-- Service画面 -->
+    <?php include 'service.php'; ?>
+
     <!-- フッター -->
     <?php include 'footer.php'; ?>
 </body>
