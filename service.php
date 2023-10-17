@@ -17,17 +17,16 @@
     <div class="container">
         <div class="row d-flex justify-content-center">
                 <?php foreach ($serviceCards as $card): ?>
-                    <div class="col-md-4 card m-5">
-                           <img class="card-img-top mt-2" src="<?php echo $card["img"]; ?>" alt=""> 
-                        <div class="card-title text-center h3 p-4">
+                    <div class="col-md-4 card m-5 p-0">
+                           <img class="card-img-top" src="<?php echo $card["img"]; ?>" alt=""> 
+                        <div class="card-title text-center h4 p-4 text-secondary">
                             <?php echo $card["title"]; ?>
                         </div>
-                        <div class="card-text m-2 h5">
+                        <div class="card-text m-2 h5 p-4">
                             <?php echo $card["content"]; ?>
                         </div>
                     </div>
                 <?php endforeach ?>
         </div>
     </div>
-    
 </div>

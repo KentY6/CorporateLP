@@ -26,40 +26,42 @@
         )
     ) ?>
 
-    <div class="d-flex align-items-center justify-content-center w-75">
-        <?php foreach ($cases as $case): ?>
-            <div class=" d-flex flex-column justify-content-center align-items-center w-50 h3">
-                <div class="m-4"><?php echo $case["title"]; ?></div>
-                <div class="d-flex m-4 w-75">
-                    <div class="bg-secondary-subtle w-50 p-4 d-flex align-items-center justify-content-center">敷金</div>
-                    <div class="m-4 h2 d-flex justify-content-center align-items-center  border-bottom border-secondary">
-                        <?php echo $case["deposit"]; ?>
-                        <div class="h5 d-flex justify-content-center align-items-center m-2">円</div>
+    <div class=" container">
+        <div class="row w-100 d-flex align-items-center justify-content-center">
+            <?php foreach ($cases as $case): ?>
+                <div class="col-md-5 d-flex flex-column justify-content-center align-items-center h4">
+                    <div class="m-4"><?php echo $case["title"]; ?></div>
+                    <div class="d-flex m-4 w-75">
+                        <div class="bg-secondary-subtle w-50 p-4 d-flex align-items-center justify-content-center">敷金</div>
+                        <div class="m-4 h2 d-flex justify-content-center align-items-center  border-bottom border-secondary">
+                            <?php echo $case["deposit"]; ?>
+                            <div class="h5 d-flex justify-content-center align-items-center m-2">円</div>
+                        </div>
+                    </div>
+                    <div class="d-flex m-4 w-75">
+                        <div class="bg-secondary-subtle w-50 p-4 d-flex align-items-center justify-content-center">礼金</div>
+                        <div class="m-4 h2 d-flex justify-content-center align-items-center  border-bottom border-secondary">
+                            <?php echo $case["keyMoney"]; ?>
+                            <div class="h5 d-flex justify-content-center align-items-center m-2">円</div>
+                        </div>
+                    </div>
+                    <div class="d-flex m-4 w-75">
+                        <div class="bg-secondary-subtle w-50 p-4 d-flex align-items-center justify-content-center">手数料</div>
+                        <div class="m-4 h2  d-flex justify-content-center align-items-center  border-bottom border-secondary  text-<?php echo $case["textColor"]; ?>">
+                            <?php echo $case["commissionFee"]; ?>
+                            <div class="h5 d-flex justify-content-center align-items-center m-2">円</div>
+                        </div>
+                    </div>
+                    <div class="d-flex m-4 w-75">
+                        <div class="bg-secondary-subtle w-50 p-4 d-flex align-items-center justify-content-center">合計</div>
+                        <div class="m-4 h2 d-flex justify-content-center align-items-center  border-bottom border-secondary  text-<?php echo $case["textColor"]; ?>">
+                            <?php echo $case["totalFee"]; ?>
+                            <div class="h5 d-flex justify-content-center align-items-center m-2">円</div>
+                        </div>
                     </div>
                 </div>
-                <div class="d-flex m-4 w-75">
-                    <div class="bg-secondary-subtle w-50 p-4 d-flex align-items-center justify-content-center">礼金</div>
-                    <div class="m-4 h2 d-flex justify-content-center align-items-center  border-bottom border-secondary">
-                        <?php echo $case["keyMoney"]; ?>
-                        <div class="h5 d-flex justify-content-center align-items-center m-2">円</div>
-                    </div>
-                </div>
-                <div class="d-flex m-4 w-75">
-                    <div class="bg-secondary-subtle w-50 p-4 d-flex align-items-center justify-content-center">手数料</div>
-                    <div class="m-4 h2 d-flex justify-content-center align-items-center  border-bottom border-secondary  text-<?php echo $case["textColor"]; ?>">
-                        <?php echo $case["commissionFee"]; ?>
-                        <div class="h5 d-flex justify-content-center align-items-center m-2">円</div>
-                    </div>
-                </div>
-                <div class="d-flex m-4 w-75">
-                    <div class="bg-secondary-subtle w-50 p-4 d-flex align-items-center justify-content-center">合計</div>
-                    <div class="m-4 h2 d-flex justify-content-center align-items-center  border-bottom border-secondary  text-<?php echo $case["textColor"]; ?>">
-                        <?php echo $case["totalFee"]; ?>
-                        <div class="h5 d-flex justify-content-center align-items-center m-2">円</div>
-                    </div>
-                </div>
-            </div>
-        <?php endforeach ?>
+            <?php endforeach ?>
+        </div>
     </div>
 
 </div>
