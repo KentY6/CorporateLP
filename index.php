@@ -23,6 +23,9 @@
     <!-- Service画面 -->
     <?php include 'service.php'; ?>
 
+    <!-- FAQ画面 -->
+    <?php include 'faq.php'; ?>
+
     <!-- フッター -->
     <?php include 'footer.php'; ?>
 </body>
