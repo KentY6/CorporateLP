@@ -26,6 +26,9 @@
     <!-- FAQ画面 -->
     <?php include 'faq.php'; ?>
 
+    <!-- お問い合わせ画面 -->
+    <?php include 'contactUs.php'; ?>
+
     <!-- フッター -->
     <?php include 'footer.php'; ?>
 </body>
