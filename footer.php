@@ -13,27 +13,27 @@
                 </a>
             </div>
             <div class="text-light m-1">
-                <a class="text-decoration-none text-light" href="#">
+                <a class="text-decoration-none text-light" href="#about">
                     About
                 </a>
             </div>
             <div class="text-light m-1">
-                <a class="text-decoration-none text-light"  href="#">
+                <a class="text-decoration-none text-light"  href="#case">
                     Case
                 </a>
             </div>
             <div class="text-light m-1">
-                <a class="text-decoration-none text-light" href="#">
+                <a class="text-decoration-none text-light" href="#service">
                     Service
                 </a>
             </div>
             <div class="text-light m-1">
-                <a class="text-decoration-none text-light" href="#">
+                <a class="text-decoration-none text-light" href="#faq">
                     FAQ
                 </a>
             </div>
             <div class="text-light m-1">
-                <a class="text-decoration-none text-light" href="#">
+                <a class="text-decoration-none text-light" href="#contactUs">
                     Contact Us
                 </a>
             </div>

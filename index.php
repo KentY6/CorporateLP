@@ -12,22 +12,34 @@
     <?php include 'header.php'; ?>
 
     <!-- ホーム画面 -->
-    <?php include 'home.php'; ?>
+    <div id="home">
+        <?php include 'home.php'; ?>
+    </div>
 
     <!-- 会社概要画面 -->
-    <?php include 'about.php'; ?>
-
+    <div id="about">
+        <?php include 'about.php'; ?>
+    </div>
+    
     <!-- Case画面 -->
-    <?php include 'case.php'; ?>
+    <div id="case">
+        <?php include 'case.php'; ?>
+    </div>
 
     <!-- Service画面 -->
-    <?php include 'service.php'; ?>
+    <div id="service">
+        <?php include 'service.php'; ?>
+    </div>
 
     <!-- FAQ画面 -->
-    <?php include 'faq.php'; ?>
+    <div id="faq">
+        <?php include 'faq.php'; ?>
+    </div>
 
     <!-- お問い合わせ画面 -->
-    <?php include 'contactUs.php'; ?>
+    <div id="contactUs">
+        <?php include 'contactUs.php'; ?>
+    </div>
 
     <!-- フッター -->
     <?php include 'footer.php'; ?>

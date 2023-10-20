@@ -10,19 +10,19 @@
                         <a class="nav-link active" href="#">Home</a>
                       </li>
                       <li class="nav-item m-2">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                       </li>
                       <li class="nav-item m-2">
-                        <a class="nav-link" href="#">Case</a>
+                        <a class="nav-link" href="#case">Case</a>
                       </li>
                       <li class="nav-item m-2">
-                        <a class="nav-link" href="#">Service</a>
+                        <a class="nav-link" href="#service">Service</a>
                       </li>
                       <li class="nav-item m-2">
-                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" href="#faq">FAQ</a>
                       </li>
                       <li class="nav-item m-2">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#contactUs">Contact Us</a>
                       </li>
                     </ul>
                   </nav>
